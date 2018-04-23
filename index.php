@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="CSS/opmaak1.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 
+body,h1,h2,h3,h4,h5,h6
             {
              font-family: "Lato", sans-serif;
             }
@@ -21,7 +21,7 @@ th
 				width: 15em;
 			}
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 
+.bgimg-1, .bgimg-2, .bgimg-3
 			{
 				background-attachment: fixed;
 				background-position: center;
@@ -30,7 +30,7 @@ th
 			}
 
 /* First image (Logo. Full height) */
-.bgimg-1 
+.bgimg-1
 {
     background-image: url('Images/BTAAchtergrond.jpg');
     min-height: 100%;
@@ -50,7 +50,7 @@ th
     min-height: 400px;
 }
 
-.w3-wide 
+.w3-wide
 {
     letter-spacing: 10px;
 }
@@ -68,6 +68,7 @@ th
 
 </style>
 <body>
+  <?php echo "test"; ?>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -96,7 +97,7 @@ th
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span><!--<img src="Images/BTA.png"width="300" width="300"</span>--><p>BTA PRO</p>	
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small"></span><!--<img src="Images/BTA.png"width="300" width="300"</span>--><p>BTA PRO</p>
   </div>
 </div>
 
@@ -104,7 +105,7 @@ th
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">BTA PRO</h3>
   <p class="w3-center"><em>Wat zijn wij?</em></p>
-  <p>>Wij zijn de bta pro. Wat is de BTA pro nu? Wij zijn een tennisschool dat als doel heeft om tennisleerlingen ombouwen tot top tennissers en om ze zo klaar te stomen voor de competitie 
+  <p>>Wij zijn de bta pro. Wat is de BTA pro nu? Wij zijn een tennisschool dat als doel heeft om tennisleerlingen ombouwen tot top tennissers en om ze zo klaar te stomen voor de competitie
   </p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -113,16 +114,16 @@ th
       <table>
           <tr>
 
-        <th> 
+        <th>
              <img src="Images/Pieter.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="150" height="300" onmouseover="this.src='Images/Pieter1.jpeg'" onmouseout="this.src='Images/Pieter.jpeg'" >
         </th>
-        <th> 
+        <th>
            <img src="Images/Demi.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="150" height="300">
         </th>
         <th>  <img src="Images/casper2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="190" height="350"></th>
 
             </tr>
-            <tr>  
+            <tr>
                 <th>Pieter Vanreeth</th>
                 <th>Dimitri d’haese</th>
                 <th>Casper Schyvinck</th>
@@ -136,10 +137,10 @@ th
           <th>Jelle Vanhee</th>
           <th>Stan Van Praet</th>
           <th>Nick Maes</th>
-   
+
         </tr>
-   
-    </table>      
+
+    </table>
     </div>
 
     <!-- Hide this text on small devices -->
@@ -149,12 +150,12 @@ th
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
-  
-  
-  
-  
-  
- 
+
+
+
+
+
+
   <p class="w3-wide"><i class="fa fa-photo"></i>
     <h3 class="w3-center">Onze sponsors</h3>
    <img src="Images/partner.jpg">
@@ -198,7 +199,7 @@ th
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
    <div class="w3-col m3">
-      <object width="400" height="400" data="pdf/CursusAA.pdf"></object> 
+      <object width="400" height="400" data="pdf/CursusAA.pdf"></object>
     </div>
 
     <div class="w3-col m3">
@@ -255,26 +256,26 @@ th
         font-family: Verdana, sans-serif;
         margin: 0;
       }
-      
+
       * {
         box-sizing: border-box;
       }
-      
+
       .row > .column {
         padding: 0 8px;
       }
-      
+
       .row:after {
         content: "";
         display: table;
         clear: both;
       }
-      
+
       .column {
         float: left;
         width: 25%;
       }
-      
+
       /* The Modal (background) */
       .modal {
         display: none;
@@ -288,7 +289,7 @@ th
         overflow: auto;
         background-color: black;
       }
-      
+
       /* Modal Content */
       .modal-content {
         position: relative;
@@ -298,7 +299,7 @@ th
         width: 90%;
         max-width: 1200px;
       }
-      
+
       /* The Close Button */
       .close {
         color: white;
@@ -308,22 +309,22 @@ th
         font-size: 35px;
         font-weight: bold;
       }
-      
+
       .close:hover,
       .close:focus {
         color: #999;
         text-decoration: none;
         cursor: pointer;
       }
-      
+
       .mySlides {
         display: none;
       }
-      
+
       .cursor {
         cursor: pointer
       }
-      
+
       /* Next & previous buttons */
       .prev,
       .next {
@@ -341,19 +342,19 @@ th
         user-select: none;
         -webkit-user-select: none;
       }
-      
+
       /* Position the "next button" to the right */
       .next {
         right: 0;
         border-radius: 3px 0 0 3px;
       }
-      
+
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover,
       .next:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
-      
+
       /* Number text (1/3 etc) */
       .numbertext {
         color: #f2f2f2;
@@ -362,39 +363,39 @@ th
         position: absolute;
         top: 0;
       }
-      
+
       img {
         margin-bottom: -4px;
       }
-      
+
       .caption-container {
         text-align: center;
         background-color: black;
         padding: 2px 16px;
         color: white;
       }
-      
+
       .demo {
         opacity: 0.6;
       }
-      
+
       .active,
       .demo:hover {
         opacity: 1;
       }
-      
+
       img.hover-shadow {
         transition: 0.3s
       }
-      
+
       .hover-shadow:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
       }
       </style>
-      
-      
+
+
       <h2 style="text-align:center">Gallerij</h2>
-      
+
       <div class="row">
         <div class="column">
           <img src="Images/Gallerij/foto1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
@@ -412,21 +413,21 @@ th
           <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </div>
       </div>
-      
+
       <div id="myModal" class="modal">
         <span class="close cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
-      
+
           <div class="mySlides">
             <div class="numbertext">1 / 4</div>
             <img src="Images/Gallerij/foto1.jpg" style="width:100%">
           </div>
-      
+
           <div class="mySlides">
             <div class="numbertext">2 / 4</div>
             <img src="Images/Gallerij/foto2.jpg" style="width:100%">
           </div>
-      
+
           <div class="mySlides">
             <div class="numbertext">3 / 4</div>
             <img src="Images/Gallerij/foto3.jpg" style="width:100%">
@@ -436,18 +437,18 @@ th
             <div class="numbertext">3 / 4</div>
             <img src="Images/Gallerij/fot o3.jpg" style="width:100%">
           </div>
-          
+
           <div class="mySlides">
             <div class="numbertext">4 / 4</div>
             <img src="img_lights_wide.jpg" style="width:100%">
           </div>
-        
-      
+
+
           <div class="caption-container">
             <p id="caption"></p>
           </div>
-      
-      
+
+
           <div class="column">
             <img class="demo cursor" src="Images/Gallerij/foto1.jpg" style="width:100%" onclick="currentSlide(1)" alt="foto">
           </div>
@@ -465,27 +466,27 @@ th
           </div>
         </div>
       </div>
-      
+
       <script>
       function openModal() {
         document.getElementById('myModal').style.display = "block";
       }
-      
+
       function closeModal() {
         document.getElementById('myModal').style.display = "none";
       }
-      
+
       var slideIndex = 1;
       showSlides(slideIndex);
-      
+
       function plusSlides(n) {
         showSlides(slideIndex += n);
       }
-      
+
       function currentSlide(n) {
         showSlides(slideIndex = n);
       }
-      
+
       function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("mySlides");
@@ -542,19 +543,19 @@ th
             </th>
             <th style="width:100%;">
             </th>
-        </tr> 
+        </tr>
         </table>
         </div>
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        
+
       </div>
-     
+
       <form action="/action_page.php" target="_blank" style="margin-bottom:500px;">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-            
+
             <p></p>
           </div>
           <div class="w3-half" style="margin-left:10%">
@@ -563,10 +564,10 @@ th
             <input class="w3-input w3-border" type="text" placeholder="Telefoon/GSM" required name="Name" style="margin-left:-20%;width:153%;"/>
             <input class="w3-input w3-border" type="text" placeholder="Onderwerp" required name="Email"style="margin-left:-20%;width:153%;"/>
           </div>
-        </div> 
+        </div>
         <textarea style="width:700px;"></textarea></br>
 		<input type="submit" name="verzend" value="Verzenden" style="width:77%; height:20%;">
-       
+
         </button>
       </form>
     </div>
@@ -582,9 +583,9 @@ th
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
  <!-- <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>-->
- 
+
 </footer>
- 
+
 <!-- Add Google Maps -->
 <script>
 
@@ -609,7 +610,7 @@ function myFunction() {
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() 
+function toggleFunction()
 {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
